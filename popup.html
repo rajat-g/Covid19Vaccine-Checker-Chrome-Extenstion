@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vaccination Availability Checker</title>
+</head>
+<link rel="stylesheet" type="text/css" href="popup.css">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="popup.js"></script>
+<body>
+    <h1>Vaccination Availability Checker</h1>
+    <div id="checker">
+        <p>Pincode</p><input type="text" id="pincode">
+        <p>Date</p><input type="date" id="dateSelected">
+        <button id="checkPage">Check Now</button>
+    </div>
+    <div id="checkerdata">
+    	<p id="message">No Data Found!!</p>
+        <table id="checkerdataTable">
+            <tr>
+                <th>Name</th>
+                <th>Fee</th>
+                <th>Age Limit</th>
+                <th>Available Capacity</th>
+                <th>Vaccine</th>
+            </tr>
+        </table>
+        <br>
+        <br>
+        <button id="returnButton">Return</button>
+    </div>
+</body>
+</html>
