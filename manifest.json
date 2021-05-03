@@ -12,10 +12,14 @@
     "content_security_policy": "script-src 'self' 'unsafe-eval' https://code.jquery.com 'unsafe-inline'; object-src 'self'; connect-src 'self' 'unsafe-eval' https://cdn-api.co-vin.in",
     "content_scripts": [
     {
-      "matches": ["http://*/*","https://*/*"],
-      "css": ["popup.css"],
-      "js": ["popup.js"]
+        "matches": ["http://*/*", "https://*/*"],
+        "css": ["popup.css"],
+        "js": ["popup.js"]
+    }],
+    "permissions": ["notifications"],
+    "background":
+    {
+        "scripts": ["background.js"],
+        "persistent": false
     }
-  ]
-  
 }

@@ -1,10 +1,8 @@
-table,
-th,
-td {
+#checkerdataTable, .checkerdataTableData {
     border: 1px solid black;
     border-collapse: collapse;
 }
 
-td {
+.checkerdataTableData {
     padding: 10px;
 }

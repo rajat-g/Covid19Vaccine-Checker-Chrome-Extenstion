@@ -8,6 +8,7 @@
 <script src="popup.js"></script>
 <body>
     <h1>Vaccination Availability Checker</h1>
+    <p id="validationMessage"></p>
     <div id="checker">
         <p>Pincode</p><input type="text" id="pincode">
         <p>Date</p><input type="date" id="dateSelected">
@@ -17,11 +18,11 @@
     	<p id="message">No Data Found!!</p>
         <table id="checkerdataTable">
             <tr>
-                <th>Name</th>
-                <th>Fee</th>
-                <th>Age Limit</th>
-                <th>Available Capacity</th>
-                <th>Vaccine</th>
+                <th class="checkerdataTableData">Name</th>
+                <th class="checkerdataTableData">Fee</th>
+                <th class="checkerdataTableData">Age Limit</th>
+                <th class="checkerdataTableData">Available Capacity</th>
+                <th class="checkerdataTableData">Vaccine</th>
             </tr>
         </table>
         <br>
