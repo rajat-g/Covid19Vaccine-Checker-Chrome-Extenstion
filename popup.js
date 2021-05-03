@@ -69,6 +69,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 }
             });
         } else {
+            $('#message').show();
             $('#validationMessage').text("Pincode or Date not valid");
         }
     });
